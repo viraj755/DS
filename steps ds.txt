@@ -1,0 +1,69 @@
+Assignment No.1
+1. Open command-prompt and compile the java file
+javac *.java
+2. Start the rmiregistry
+start rmiregistry
+3. Then start the “Server” class
+java Server
+4. Then open another command-prompt and start the client
+java Client 
+...................................................................
+
+Assignment No.2 
+1. Compile the interface code with the following command: 
+idlj -fall CalcApp.idl 
+Note: This will create files stubs, and skeletons.
+
+2. Compile all the java files. 
+3. Javac *.java CalcApp/*.java
+4. Now start the ordb server though powershell. 
+5. orbd -ORBInitialPort 1050 
+6. Now start the server program on new powershell window. 
+7. java CalcServer -ORBInitialPort 1050 -ORBInitialHost localhost 
+8. Now start the client program on new powershell window. 
+java CalcClient -ORBInitialPort 1050 -ORBInitialHost localhost 
+9. Do the operaƟons on the client end. Exit the program aŌer usage. 
+.....................................................................................................................
+Assignment No.3
+Compile 
+1. Open terminal, and change the directory to the python files directory. 
+2. Type the following command on terminal. 
+mpiexec -np 3 python sum.py 
+3. The local sum and global sum values would be displayed. 
+.........................................................................................
+Assignment No.4
+Steps to run: 
+1. Create the server and client python files. 
+2. Open PowerShell can change directory to the source code directory. 
+3. Run the server file 
+1. python server.py 
+2. 
+ 4. Open new PowerShell and run the client program. 
+1. python client.py 
+...............................................................................................
+
+Assignment No. 5
+
+1. Open cmd and write the below commands
+>>cd file path
+>>python Token.py
+............................................................
+Assignment No. 6 
+
+1. Open cmd and write the below commands
+>>cd file path
+>>python Bully.py
+python Driver.py
+python Ring.py
+...................................................................................
+Assignment No. 7
+1. Install Flask. 
+1. pip install flask 
+2. 
+2. Develop the app.py, and run it by following command. 
+1. python app.py 
+2. 
+This would start the app server on your local machine. 
+3. Develop the client.py for interacƟon with the web service. 
+4. Run the client.py 
+1. python client.py 
